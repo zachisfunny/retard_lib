@@ -123,7 +123,7 @@ function Library:createTab(Name)
 
 		script.Parent.MouseButton1Click:Connect(function()
 			if opened == false then
-				TweenService:Create(script.Parent, tweenInfo, {Rotation = -90}):Play()
+				TweenService:Create(script.Parent, tweenInfo, {Rotation = 90}):Play()
 				script.Parent.Parent.Body:TweenSize(
 					UDim2.new(0, 204,0, script.Parent.Parent.Body.size.Value),
 					Enum.EasingDirection.In,
@@ -140,7 +140,7 @@ function Library:createTab(Name)
 				end
 				opened = true
 			else
-				TweenService:Create(script.Parent, tweenInfo, {Rotation = 90}):Play()
+				TweenService:Create(script.Parent, tweenInfo, {Rotation = -90}):Play()
 				script.Parent.Parent.Body:TweenSize(
 					UDim2.new(0,204,0,0),
 					Enum.EasingDirection.In,
