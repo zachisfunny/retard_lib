@@ -1,0 +1,20 @@
+--New ui
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/zachisfunny/retard_lib/main/Lib"))()
+
+--New tab
+name = Library:createTab("tab")
+
+--New toggle
+name:createToggle("toggle", function(a)
+    
+end)
+
+--New slider:
+Localg:createSlider("slider", 100, function(a)
+
+end)
+
+--New button
+Localg:createButton("button", function()
+
+end)
