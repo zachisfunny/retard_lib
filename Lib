@@ -44,7 +44,7 @@ function Library:createTab(Name)
 
 	UIListLayout.Parent = Body
 	UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
-	UIListLayout.Padding = UDim.new(0, 3)
+	UIListLayout.Padding = UDim.new(0, 1)
 
 	Title_2.Name = "Title"
 	Title_2.Parent = Tab
