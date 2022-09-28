@@ -10,11 +10,11 @@ name:createToggle("toggle", function(a)
 end)
 
 --New slider:
-Localg:createSlider("slider", 100, function(a)
+name:createSlider("slider", 100, function(a)
 
 end)
 
 --New button
-Localg:createButton("button", function()
+name:createButton("button", function()
 
 end)
