@@ -100,7 +100,7 @@ function Library:createTab(Name)
 			end
 		end
 
-		script.Parent.size.Value += 1
+		script.Parent.size.Value += 0
 		script.Parent.Size = UDim2.new(0, 204,0, 0)
 
 	end
